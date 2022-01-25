@@ -18,7 +18,7 @@
 							"var responsebody = pm.response.text()\r",
 							"\r",
 							"pm.test(\"Body matches string\", () => {\r",
-							"    pm.expect(responsebody).to.include(\"This is the first responce from server!\");\r",
+							"    pm.expect(responsebody).to.be.string;\r",
 							"});\r",
 							"console.log(\"string = \" + responsebody)"
 						],
